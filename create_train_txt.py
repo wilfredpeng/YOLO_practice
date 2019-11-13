@@ -9,22 +9,6 @@ if __name__=='__main__':
     print(src)
     filedir=os.listdir(src)
     print(filedir)
-    # if len(sys.argv)<2:
-    #     print('piclist2txt program need 1 argv.you must input command like\n   python 123.py [source folder name] [changed path]')
-    # else:
-    #     src=sys.argv[1]+'/'
-    #     if len(sys.argv)>2:
-    #         path=sys.argv[2]+'/'
-    #     else:
-    #         path=src
-    #
-    #     filedir=os.listdir(src)
-    #     imgfile=re.compile(r'.*(jpg|jpeg|JPEG)')
-    #     listdir=[]
-    #     for i in filedir:
-    #         if re.match(imgfile,i):
-    #             listdir.append(i)
-    #     #print(listdir)
     f = open(src+'train.txt','w+')
     for i in filedir:
         print(path+i)
