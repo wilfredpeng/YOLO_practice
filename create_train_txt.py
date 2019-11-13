@@ -1,8 +1,8 @@
 import os
 import re
 import sys
-src='/Users/wilfred/Desktop/'
-path='/Users/wilfred/Desktop/'
+src='/Users/*****/Desktop/'
+path='/Users/*****/Desktop/'
 if __name__=='__main__':
     print(len(sys.argv))
     src=src+sys.argv[1]+'/'
